@@ -1,0 +1,10 @@
+:root{
+  --space-0:#05070F;--space-1:#0A1020;--indigo:#101838;
+  --text-1:#F3EDE2;--text-2:#BDB6A8;--text-3:#8E8A82;
+  --block:#F6C453;--net:#5BC8F0;--ok:#2EC4A5;--mine:#F28A2E;--bad:#FF6B57;
+  --line:rgba(243,237,226,.14);--line-2:rgba(243,237,226,.28);
+  --font-display:"Fraunces Variable",Georgia,"Times New Roman",serif;
+  --font-body:"Source Sans 3 Variable","Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --ease:cubic-bezier(.2,.7,.2,1);--t-micro:160ms;--t-reveal:420ms;--t-morph:750ms;
+}

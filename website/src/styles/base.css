@@ -1,0 +1,26 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;color-scheme:dark;background:var(--space-0)}
+body{margin:0;background:var(--space-0);color:var(--text-1);font:400 18px/1.62 var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:var(--font-display);font-weight:400;line-height:1.1;margin:0;color:var(--text-1)}
+p{margin:0 0 1em;color:var(--text-2)} strong{color:var(--text-1);font-weight:600}
+a{color:var(--net)} code,.mono{font-family:var(--font-mono);font-size:.86em}
+code{color:var(--block)}
+svg text{fill:var(--text-2);font-family:var(--font-mono);font-size:11px}
+button,input,select,textarea{font:inherit;color:var(--text-1);background:var(--space-1);border:1px solid var(--line-2);border-radius:2px;padding:.5rem .8rem}
+button{cursor:pointer;font-family:var(--font-mono);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;transition:border-color var(--t-micro),color var(--t-micro),background var(--t-micro)}
+button:hover{border-color:var(--block);color:var(--block);background:var(--indigo)}
+button.on{border-color:var(--block);color:var(--block)}
+button.primary{background:var(--block);color:var(--space-0);border-color:var(--block)}
+button.primary:hover{background:var(--mine);border-color:var(--mine);color:var(--space-0)}
+select option{background:var(--space-1);color:var(--text-1)}
+input[type=range]{padding:0;accent-color:var(--block);background:none;border:0}
+input[type=text]{font-family:var(--font-mono);width:100%}
+:focus-visible{outline:2px solid var(--net);outline-offset:2px}
+details{border-top:1px solid var(--line);padding:.8rem 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font-family:var(--font-mono);font-size:.85rem;color:var(--text-1);list-style:none}
+summary::before{content:"+ ";color:var(--block)} details[open] summary::before{content:"− "}
+summary::-webkit-details-marker{display:none}
+table{border-collapse:collapse;width:100%} th,td{border-bottom:1px solid var(--line);padding:.5rem;text-align:left;font-family:var(--font-mono);font-size:.85rem;color:var(--text-2)}
+th{color:var(--text-1)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}

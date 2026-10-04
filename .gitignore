@@ -1,0 +1,62 @@
+# ============================================================
+# Blockchain Network Simulation — repository ignore rules
+# ============================================================
+
+# Java / Maven build output
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node / Vite build output
+node_modules/
+website/node_modules/
+dist/
+website/dist/
+.vite/
+website/.vite/
+coverage/
+
+# Environment / local secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor metadata
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+.classpath
+.project
+.settings/
+
+# Python utility cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local archives / backups
+*.zip
+*.7z
+*.rar
+*.bak
+*.swp
+*~
+
+# Keep output/ tracked intentionally:
+# it contains Java-generated JSON and PNG evidence used by the PBL website.
